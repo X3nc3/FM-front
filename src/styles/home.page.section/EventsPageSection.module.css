@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  color: white;
+  background-color: #e9dccd;
+}
+
+.photoContainer {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  width: 330px;
+  margin: 15px;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+.photo {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+  filter: brightness(70%);
+  transition: transform 1.3s ease;
+  z-index: 1;
+}
+
+.photo:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.title {
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 20%;
+  z-index: 2;
+}
+
+.titleEvents {
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 30%;
+  z-index: 2;
+}

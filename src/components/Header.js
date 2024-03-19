@@ -1,6 +1,7 @@
-import React from "react";
-import Logo from "../assets/logo.png.png";
-import { Grid, Typography } from "@mui/material";
+//modules
+import { Grid } from "@mui/material";
+//assets
+import Logo from "../assets/header/logo.png.png";
 
 const Header = () => {
   return (

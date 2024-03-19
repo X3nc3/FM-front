@@ -1,8 +1,10 @@
+//modules
 import { Grid, Link } from "@mui/material";
-import React from "react";
+//styles
 import style from "../styles/Footer.module.css";
-import IconLinked from "../assets/icon-linked.png";
-import IconInsta from "../assets/icon-insta.png";
+//assets
+import IconLinked from "../assets/footer/icon-linked.png";
+import IconInsta from "../assets/footer/icon-insta.png";
 
 const Footer = () => {
   return (

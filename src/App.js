@@ -2,8 +2,9 @@ import React from "react";
 //components
 import Header from "./components/Header";
 import Nav from "./components/Nav";
-import Home from "./components/Home";
 import Footer from "./components/Footer";
+//page
+import Home from "./pages/Home";
 
 function App() {
   return (

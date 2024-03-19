@@ -1,0 +1,25 @@
+.imageContainer {
+  height: 500px;
+  overflow: hidden;
+  border-top-left-radius: 50% 30%;
+  border-top-right-radius: 50% 30%;
+}
+
+.BoldLigne {
+  width: 300px;
+  height: 10px;
+  border: 1px solid #f6f5f0;
+  background-color: #f6f5f0;
+  margin-top: 30px;
+}
+
+.button {
+  margin-top: 20px;
+  width: 150px;
+  color: #f6f5f0;
+  background-color: #8d4024;
+}
+.button:hover {
+  color: #8d4024;
+  background-color: #f6f5f0;
+}
